@@ -1,0 +1,154 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Skip Link */
+.skip-link {
+    position: absolute;
+    left: -9999px;
+}
+
+.skip-link:focus {
+    left: 10px;
+    top: 10px;
+    background: #000;
+    color: #fff;
+    padding: 8px;
+    z-index: 1000;
+}
+
+/* Navigation Styles */
+nav ul {
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 15px 20px;
+    display: block;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+    transition: background-color 0.3s ease;
+}
+
+/* Main Content Styles */
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+.intro {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+/* mwdia  */
+    /* Social Media Styles */
+.social-media {
+    margin-top: 10px;
+}
+
+.social-media a {
+    text-decoration: none;
+    color: #333;
+    margin-right: 15px;
+    display: inline-flex;
+    align-items: center;
+    position: relative;
+    top: 250px;
+}
+
+.social-media a img {
+    width: 24px; /* Adjust size as needed */
+    height: auto;
+    margin-right: 5px;
+}
+
+.social-media a:hover {
+    color: #007BFF;
+}
+
+
+/* ############################# */
+/* Gallery Styles */
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    padding: 20px;
+}
+
+.gallery-grid img {
+    width: 100%;
+    height: auto;
+    border: 2px solid #ddd;
+    padding: 5px;
+    border-radius: 10px;
+}
+/* ################################## */
+/* Contact Form Styles */
+.contact {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
